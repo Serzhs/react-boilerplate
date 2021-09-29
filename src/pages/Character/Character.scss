@@ -1,0 +1,19 @@
+.back {
+  background-color: burlywood;
+  font-size: 20px;
+  padding: 5px 20px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.2s;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.characterWrapper {
+  display: grid;
+  grid-template-columns: 400px;
+  justify-content: center;
+}

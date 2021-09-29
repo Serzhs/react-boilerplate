@@ -31,6 +31,9 @@
         "@typescript-eslint/no-use-before-define": ["error"],
         "react/button-has-type": "off",
         "react/require-default-props": "off",
+        "jsx-a11y/no-static-element-interactions": "off",
+        "jsx-a11y/click-events-have-key-events": "off",
+        "no-unused-vars": "off",
         "react/jsx-filename-extension": [2, { "extensions": [".js", ".jsx", ".ts", ".tsx"] }],
         "import/extensions": [
             "error",
