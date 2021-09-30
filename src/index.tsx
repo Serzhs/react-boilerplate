@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Router from './Router';
+import { QueryParamProvider } from 'use-query-params';
 import reportWebVitals from './reportWebVitals';
+import VideoPlayer from './components/VideoPlayer/VideoPlayer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Router />
+    <QueryParamProvider>
+      <VideoPlayer />
+    </QueryParamProvider>
   </React.StrictMode>,
   document.getElementById('root'),
 );
